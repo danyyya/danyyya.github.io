@@ -1,11 +1,20 @@
 {
-  "main.css": "static/css/main.cc2028d8.css",
-  "main.js": "static/js/main.328ffd6b.js",
-  "static\\media\\add.svg": "static/media/add.cc73384a.svg",
-  "static\\media\\chevron.svg": "static/media/chevron.61da33b2.svg",
-  "static\\media\\close.svg": "static/media/close.27e1805a.svg",
-  "static\\media\\edit.svg": "static/media/edit.faad2f04.svg",
-  "static\\media\\logo.svg": "static/media/logo.2d266626.svg",
-  "static\\media\\right.png": "static/media/right.d358b435.png",
-  "static\\media\\settings.svg": "static/media/settings.5c0d85c4.svg"
+  "files": {
+    "main.css": "/static/css/main.4869d98e.css",
+    "main.js": "/static/js/main.75980040.js",
+    "static/media/logo.svg": "/static/media/logo.35a09f154505dc7ee59072499b5e0f76.svg",
+    "static/media/right.png": "/static/media/right.87a19a926388de79c997.png",
+    "static/media/eng.png": "/static/media/eng.d9b5a68795d307465599.png",
+    "static/media/russia.png": "/static/media/russia.13a7b4df2a0f4e1c0dea.png",
+    "static/media/settings.svg": "/static/media/settings.29b04a666f6921d53b42c663bf45ef67.svg",
+    "static/media/diamond.svg": "/static/media/diamond.24a02a607e86ef772b50deec4c8837b1.svg",
+    "index.html": "/index.html",
+    "static/media/add.svg": "/static/media/add.d1f8081f947e6951672270efebab7985.svg",
+    "static/media/close.svg": "/static/media/close.acd4477cb2347c52664d8ac52a34e34b.svg",
+    "static/media/chevron.svg": "/static/media/chevron.226c97a9f857ab629f8f4ac80451596d.svg"
+  },
+  "entrypoints": [
+    "static/css/main.4869d98e.css",
+    "static/js/main.75980040.js"
+  ]
 }
