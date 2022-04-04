@@ -1,0 +1,8 @@
+{
+    "name": "TON Donate",
+    "description": "Buy one of our NFTs and get access to special features. The collection is limited.",
+    "image": "https://i.imgur.com/yrIvLB4.png",
+    "external_link": "https://tondonate.com",
+    "seller_fee_basis_points": 100,
+    "fee_recipient": "0xA97F337c39cccE66adfeCB2BF99C1DdC54C2D721"
+}
