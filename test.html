@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://tg.dev/js/telegram-web-app.js?1"></script>
 </head>
 <body>
     <a href="https://vk.com" onclick="cl()" target="_blank">a href</a>
@@ -21,5 +21,12 @@
             logs.innerHTML += '<br /> click to button'
         }
     </script>
+     <script>
+        function setThemeClass() {
+          document.documentElement.className = window.Telegram.WebApp.colorScheme;
+        }
+        window.Telegram.WebApp.onEvent('themeChanged', setThemeClass);
+        setThemeClass();
+      </script>
 </body>
 </html>
