@@ -9,10 +9,17 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-    <a href="https://vk.com" target="_blank">test</a>
+    <a href="https://vk.com" onclick="cl()" target="_blank">a href</a>
+    <div id="logs">logs:</div>
 
     <script>
-        window.Telegram.WebApp.initData()
+        let logs = document.querySelector('#logs')
+
+        logs.innerHTML += '<br /> Tg data: ' + window.Telegram.WebApp.initData
+
+        function cl() {
+            logs.innerHTML += '<br /> click to button'
+        }
     </script>
 </body>
 </html>
